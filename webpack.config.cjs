@@ -14,6 +14,9 @@ module.exports = {
   devServer: {
     static: path.resolve(__dirname, "dist"),
     port: 3000, // Development server port
+    open: true,
+    hot: true,
+    liveReload: true,
   },
   plugins: [
     new CleanWebpackPlugin(), // Cleans output directory before each build
