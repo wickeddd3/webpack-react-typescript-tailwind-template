@@ -1,5 +1,3 @@
-import "./../styles/app.module.css";
-
 export const App = () => {
-  return <h1>Hello World</h1>;
+  return <h1 className="bg-red-500">Hello World</h1>;
 };
