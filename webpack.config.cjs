@@ -51,6 +51,9 @@ module.exports = {
     ],
   },
   resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"), // Resolves `@` to `src`
+    },
     extensions: [".tsx", ".ts", ".jsx", ".js"], // Resolve these extensions, for omitting file extension on import
   },
 };
